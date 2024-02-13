@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorTextos: #7e7e7e;
+  --colorBotones: #f69229;
+  --colorFondo: #5d8a9f;
+  --paddingSeciones: 60px 0;
+  --marginElementos: 40px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: var(--paddingSeciones);
+}
+
+.menu-navegacion {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.enlaces li {
+  list-style: none;
+  display: inline-block;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: var(--colorTextos);
+  margin-left: 270px;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 500px;
+  background-image: url(../img/Comprender-colaboradores-blog-wow.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contenedor-textos{
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.hero p{
+  font-size: 25px;
+  font-weight: 300px;
+  margin: 15px,0;
+}
+
+.boton{
+  width: 130px;
+  display: block;
+  background: var(--colorBotones);
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+}
+
+.titulo-section{
+  text-align: center;
+  font-size: 35px;
+  color: var(--colorFondo);
+}
+.copy{
+text-align: center;
+color: var(--colorTextos);
+margin: 20px 0;
+}
+.beneficios{
+  padding-top: var(--marginElementos);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.beneficio{
+  font-size: 20px;
+  width: 10em;
+  height: 10em;
+  background-image: url("../img/291789007_467901558669640_5341860629471804124_n.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+
+}
+.proyecto{
+  background: white;
+}
+
+.contenedor-imagenes{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.contenedor-imagenes img{
+  display: block;
+  object-fit: cover;
+  width: 30%;
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.grupo-trabajo{
+  background: white;
+
+}
+
+.contenedor-grupo img{
+  display: block;
+  object-fit: cover;
+  width: 30%;
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.contenedor-trabajo{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.gente{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.copy{
+text-align: center;
+color: var(--colorTextos);
+margin: 20px 0;
+}
+
+.persona{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 300;
+  
+}
+
+footer .titulo-section{
+  font-size: 60px;
+  
+  padding-top: 200px;
+}
+
+footer .contenedor{
+  height: 500px;
+}
+
+
+
